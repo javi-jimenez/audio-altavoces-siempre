@@ -194,6 +194,15 @@ evita el gris; este proyecto arregla la causa y automatiza el cambio.
 
 ---
 
+## Prueba rápida
+
+```bash
+./tests/smoke.sh
+```
+
+Valida la sintaxis del instalador, extrae los scripts embebidos con `--dump` y
+comprueba que reconocen el hardware. **No necesita root** y no modifica nada.
+
 ## Desinstalar
 
 ```bash
